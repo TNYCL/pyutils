@@ -4,8 +4,8 @@ class Encrypt:
             output = '{}{}'.format(output, chr(ord(char) + value))
         self.output = output
 
-incrementLevel = 25
+increment_level = 25
 
 text = input('Text: ')
 print('Encrypting...')
-exit(Encrypt(text, incrementLevel).output)
+exit(Encrypt(text, increment_level).output)
